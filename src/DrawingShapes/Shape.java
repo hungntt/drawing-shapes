@@ -1,8 +1,7 @@
 package DrawingShapes;
 
-public abstract class Shape {
-    void draw() {
-    }
+abstract class Shape {
+    abstract void draw();
 }
 
 class Square extends Shape {

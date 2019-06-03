@@ -1,7 +1,7 @@
 package DrawingShapes;
 
-public class BackEnd {
-    public BackEnd(int option) {
+class BackEnd {
+    BackEnd(int option) {
         Shape shape;
         switch (option) {
             case 1:

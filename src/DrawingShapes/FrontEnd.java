@@ -3,7 +3,7 @@ package DrawingShapes;
 import java.util.Scanner;
 
 public class FrontEnd {
-    public FrontEnd() {
+    private FrontEnd() {
         System.out.println("Option:");
         System.out.println("Circle: 1");
         System.out.println("Triangle: 2");
